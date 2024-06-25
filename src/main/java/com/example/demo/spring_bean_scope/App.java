@@ -28,7 +28,6 @@ public class App {
     Student student1 = context.getBean("student",Student.class);
     System.out.println("Another student :"+student1.getName());
 		
-    
     System.out.println("This is example of bean scope");
 		
 
